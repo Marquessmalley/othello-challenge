@@ -10,6 +10,8 @@
 - In main dirrectory use this command to configure player types, names and robot player predetermined rules
       $ java -jar othello.jar --p1-type remote --p2-type robot --p1-name marques --p2-name computer --p2-moves "[[2,5],[4,5],[2,3],[2,7],[6,1],[4,6],[0,3],[1,4],[0,1],[5,4],[5,5],[5,6],[7,3],[6,7],[6,5],[3,1],[3,7],[6,2],[5,0],[7,5],[3,2],[0,5],[1,2],[7,0],[3,0],[0,7],[1,1],[4,1],[1,5],[2,0]]" --max-turn-time 200000 --wait-for-ui
 
+  - Open the game board in the web using localhost:8080
+
 - In SDK javascript directory, run this command to connect remote player to the game
       $ npm run connect-player
   
